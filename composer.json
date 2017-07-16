@@ -1,0 +1,27 @@
+{
+    "name": "alexrusin/url-scanner",
+    "description": "Scan URLs from different sources and report if the urls are valid",
+    "keywords": ["url", "scanner", "csv"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alex Rusin",
+            "homepage": "https://github.com/codeguy",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php" : ">=5.6.0",
+        "guzzlehttp/guzzle": "^6.1",
+        "league/csv": "^8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.0"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "Apr\\UrlScanner\\": "src/"
+        }
+    }
+}
