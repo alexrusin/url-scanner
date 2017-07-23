@@ -6,7 +6,7 @@
     "authors": [
         {
             "name": "Alex Rusin",
-            "homepage": "https://github.com/codeguy",
+            "homepage": "https://github.com/alexrusin",
             "role": "Developer"
         }
     ],
@@ -22,6 +22,12 @@
     "autoload": {
         "psr-4": {
             "Apr\\UrlScanner\\": "src/"
+        }
+    },
+
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
         }
     }
 }
